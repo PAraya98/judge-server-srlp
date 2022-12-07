@@ -10,11 +10,11 @@ docker run `
 
 sudo docker run \
       --name judge \
-      -p 10000:10000 \
+      -p 9998:9998 \
       --cap-add=SYS_PTRACE \
       -d --privileged \
       --restart=always \
       --network=host \
       dmoj/judge-tier1:latest \
-      run -p 9999 -c /mnt/problems/judge.yml \
+      run -p 9999 -c /mnt/problems/judge.yml -a 7777 \
       "127.0.0.1" "dmoj_srlp" "D9j7nFPNd32gRf9ttThQJP+TG2lROB977fDKBrhElpRT5MZ1PeQ7+GToaA98A21VfFE4xu+0fbU/MD1t1cUp8iCRKrpUVf+OzIcO"    
