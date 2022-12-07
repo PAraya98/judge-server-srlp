@@ -10,6 +10,4 @@ RUN mkdir /judge && cd /judge && \
 	runuser -u judge -w PATH -- dmoj-autoconf -V > /judge-runtime-paths.yml && \
 	echo '  crt_x86_in_lib32: true' >> /judge-runtime-paths.yml
 
-ENTRYPOINT runuser -u judge -w PATH -- dmoj -c /problems/judge_conf.yml 192.168.0.100
-
 ENTRYPOINT ["/judge/.docker/entry"]

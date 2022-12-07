@@ -7,3 +7,14 @@ docker run `
       dmoj/judge-tier1:latest `
       run -p 9999 -c /mnt/problems/judge.yml `
       "192.168.0.100" "dmoj_srlp" "D9j7nFPNd32gRf9ttThQJP+TG2lROB977fDKBrhElpRT5MZ1PeQ7+GToaA98A21VfFE4xu+0fbU/MD1t1cUp8iCRKrpUVf+OzIcO"    
+
+sudo docker run \
+      --name judge \
+      -p 10000:10000 \
+      --cap-add=SYS_PTRACE \
+      -d --privileged \
+      --restart=always \
+      --network=host \
+      dmoj/judge-tier1:latest \
+      run -p 9999 -c /mnt/problems/judge.yml \
+      "127.0.0.1" "dmoj_srlp" "D9j7nFPNd32gRf9ttThQJP+TG2lROB977fDKBrhElpRT5MZ1PeQ7+GToaA98A21VfFE4xu+0fbU/MD1t1cUp8iCRKrpUVf+OzIcO"    
