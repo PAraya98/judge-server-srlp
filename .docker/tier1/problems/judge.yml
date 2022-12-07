@@ -1,7 +1,7 @@
 id: dmoj_srlp
 key: D9j7nFPNd32gRf9ttThQJP+TG2lROB977fDKBrhElpRT5MZ1PeQ7+GToaA98A21VfFE4xu+0fbU/MD1t1cUp8iCRKrpUVf+OzIcO
 problem_storage_root:
-  - /problems
+  - /mnt/problems
 runtime:
   as_x64: /usr/bin/x86_64-linux-gnu-as
   as_x86: /usr/bin/as

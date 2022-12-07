@@ -5,5 +5,5 @@ docker run `
       -d --privileged `
       --restart=always `
       dmoj/judge-tier1:latest `
-      run -p 9999 -c /problems/judge.yml `
+      run -p 9999 -c /mnt/problems/judge.yml `
       "192.168.0.100" "dmoj_srlp" "D9j7nFPNd32gRf9ttThQJP+TG2lROB977fDKBrhElpRT5MZ1PeQ7+GToaA98A21VfFE4xu+0fbU/MD1t1cUp8iCRKrpUVf+OzIcO"    

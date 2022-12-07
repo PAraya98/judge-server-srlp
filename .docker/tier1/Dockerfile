@@ -1,6 +1,6 @@
 FROM dmoj/runtimes-tier1
 ARG TAG=master
-ADD problems problems
+ADD problems /mnt/problems
 
 RUN mkdir /judge && cd /judge && \
 	curl -L https://github.com/DMOJ/judge-server/archive/"${TAG}".tar.gz | tar -xz --strip-components=1 && \
