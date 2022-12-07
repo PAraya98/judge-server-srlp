@@ -1,0 +1,6 @@
+archive: openteros.zip
+test_cases:
+- {in: openteros.1.in, out: openteros.1.out, points: 25}
+- {in: openteros.2.in, out: openteros.2.out, points: 25}
+- {in: openteros.3.in, out: openteros.3.out, points: 25}
+- {in: openteros.4.in, out: openteros.4.out, points: 25}

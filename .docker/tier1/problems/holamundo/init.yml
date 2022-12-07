@@ -1,0 +1,3 @@
+archive: holamundo.zip
+test_cases:
+- {in: holamundo.1.in, out: holamundo.1.out, points: 1}

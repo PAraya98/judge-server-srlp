@@ -1,0 +1,5 @@
+archive: cuentavocales.zip
+test_cases:
+- {in: cuentavocales.1.in, out: cuentavocales.1.out, points: 10}
+- {in: cuentavocales.2.in, out: cuentavocales.2.out, points: 45}
+- {in: cuentavocales.3.in, out: cuentavocales.3.out, points: 45}

@@ -1,0 +1,5 @@
+archive: trianguloimpar.zip
+test_cases:
+- {in: trianguloimpar.1.in, out: trianguloimpar.1.out, points: 3}
+- {in: trianguloimpar.2.in, out: trianguloimpar.2.out, points: 15}
+- {in: trianguloimpar.3.in, out: trianguloimpar.3.out, points: 15}

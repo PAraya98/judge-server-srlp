@@ -1,0 +1,4 @@
+archive: cantidadcaracteres.zip
+test_cases:
+- {in: cantidadcaracteres.1.in, out: cantidadcaracteres.1.out, points: 3}
+- {in: cantidadcaracteres.2.in, out: cantidadcaracteres.2.out, points: 25}
